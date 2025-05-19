@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white; /* Sfondo bianco */
+    display: flex;
+    justify-content: flex-end; /* Allinea tutto a destra */
+    height: 100vh;
+}
+
+video {
+    height: 100vh; /* Altezza al 100% dello schermo */
+    width: auto; /* Larghezza proporzionale all'altezza */
+    object-fit: contain; /* Mantiene le proporzioni originali */
+    margin-right: 0; /* Rimuove eventuali margini destri */
+}
